@@ -127,7 +127,7 @@ Some users experience problems building the submodules on Windows (```cl.exe: Fi
 To run the optimizer, simply use
 
 ```shell
-python train.py -s <path to COLMAP or NeRF Synthetic dataset>
+python train.py -s <path to COLMAP or NeRF Synthetic dataset> -m <model_name>
 ```
 
 <details>
